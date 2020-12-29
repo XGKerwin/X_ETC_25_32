@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:layout_marginBottom="50dp"
+        >
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edit_title"
+            android:textSize="30dp"
+            android:scrollHorizontally="true"
+            android:background="@drawable/bg"
+            android:hint="标题"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:id="@+id/edit_msg"
+            android:layout_marginTop="40dp"
+            android:scrollbars="vertical"
+            android:textSize="30dp"
+            android:gravity="top"
+            android:background="@drawable/bg"
+            android:hint="请输入您的意见"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edit_tel"
+            android:textSize="30dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/bg"
+            android:maxLength="11"
+            android:scrollHorizontally="true"
+            android:hint="手机"
+            />
+
+        <Button
+            android:textSize="30dp"
+            android:layout_width="200dp"
+            android:text="提交"
+            android:layout_margin="30dp"
+            android:background="@drawable/bg_wu"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_tijiao"
+            />
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
